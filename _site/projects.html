@@ -1,0 +1,249 @@
+<!DOCTYPE html><html class=''>
+<head><link rel="stylesheet" type="text/css" href="https://betagrinder.github.io/somat2/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="https://betagrinder.github.io/somat2/css/component.css" />
+		<script src="https://betagrinder.github.io/somat2/js/modernizr.custom.js"></script>
+		
+		<link rel="stylesheet" href="https://betagrinder.github.io/somat2/css/foundation.css">
+    <link rel="stylesheet" href="https://betagrinder.github.io/somat2/css/app.css">
+    <link rel="stylesheet" href="https://betagrinder.github.io/somat2/css/somat.css">
+		<meta name="description" content="Slider Revolution Example" />
+		<meta name="keywords" content="fullscreen image, grid layout, flexbox grid, transition" />
+		<meta name="author" content="ThemePunch" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- LOAD JQUERY LIBRARY -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+
+		<!-- LOADING FONTS AND ICONS -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C100%2C300%2C700" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C300" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
+		<link href="https://fonts.googleapis.com/css?family=Lato%3A300%2C700%2C400" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
+   		<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+
+
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+<script src="https://use.fontawesome.com/3ff44dab66.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="https://betagrinder.github.io/somat2/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+		<link rel="stylesheet" type="text/css" href="https://betagrinder.github.io/somat2/fonts/font-awesome/css/font-awesome.min.css">
+
+<style class="cp-pen-styles">.magellan-scrollnav {
+  width: 25%;
+}
+.magellan-scrollnav [data-magellan-expedition], .magellan-scrollnav [data-magellan-expedition-clone] {
+  width: 250px;
+  min-width: 0;
+}
+</style>
+
+<style>
+			.somat_logo{
+    display: block;
+    margin: auto;
+margin-top: 10px;}
+
+  .header-subnav {
+  background-color: #025c96;
+  float: none;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%; }
+  .ha-header-rotate-color .header-subnav{
+  background-color: transparent;
+}
+.header-subnav-logo {
+ /* background-color: #025c96; */
+float: left;
+display: inline;
+position: relative;
+text-align: center;
+/* margin: 114px 0px;*/
+bottom: 0;
+width: 50%; 
+height: 100%;}
+  .ha-header-rotate .header-subnav {
+ /* background-color: #025c96; */
+float: right;
+display: inline;
+position: relative;
+text-align: center;
+/* margin: 114px 0px; */
+bottom: 0;
+width: 50%; }
+  .header-subnav li {
+    float: none;
+    display: inline-block; }
+    .header-subnav li a {
+      padding: 0.9rem 1rem;
+      font-size: 0.75rem;
+      color: #ffe;
+      text-transform: uppercase;
+      display: block;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: all 0.35s ease-in-out; }
+      .header-subnav li a.is-active {
+        background: rgba(250, 250, 250, 0.15); }
+      .header-subnav li a:hover {
+        background: rgba(250, 250, 250, 0.15);
+        transition: all 0.35s ease-in-out; }
+        [data-magellan] a {
+  color: #333; }
+  [data-magellan] a.active, [data-magellan] a.active:focus {
+background: none;
+color: #8B2D24;
+border-left: 4px solid; }
+#sec2{margin-top:20px;}
+#main{margin-top:160px;}
+.subsection{padding-top: 40px;}
+.menu{margin-top: 100px;}
+.subhighlight{background: rgba(250, 250, 250, 0.15);}
+
+		</style>
+
+</head><body>
+	<header id="ha-header" class="ha-header ha-header-large">
+				<div class="ha-header-perspective">
+					<div class="ha-header-front">
+						<div class="header_top"><img src="https://betagrinder.github.io/somat2/somat4.png" style="height: 65px" class="somat_logo"></div>
+  <ul class="header-subnav">
+    <li><a href="#about">About</a></li>
+    <li><a href="#careers">Careers</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#markets">Markets</a></li>
+    <li class="subhighlight"><a href="#projects">Projects</a></li>  
+    <li><a href="#locations">Contact</a></li>
+  </ul>
+					</div>
+					<div class="ha-header-bottom">
+					<div class="container" style="max-width: 1400px; display: block; margin: auto;">
+	<div class="header-subnav-logo"><img src="https://betagrinder.github.io/somat2/somat5.png" style="height: 40px; float: left; margin-left: 80px; margin-top: 3px;"></div>
+  <ul class="header-subnav">
+    <li><a href="#about">About</a></li>
+    <li><a href="#careers">Careers</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#markets">Markets</a></li>
+    <li><a href="#projects">Projects</a></li>  
+    <li><a href="#locations">Contact</a></li>
+  </ul>
+					</div>
+				</div>
+				</div>
+			</header>
+
+<main>
+<div class="row" id="main"><h1>Projects</h1></div>
+  <div class="row">
+    <div id="sec2" class="small-9 columns">
+      <section id="mag1" data-magellan-target="mag1">
+        <h2>Mag 11111</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam earum, perferendis quos necessitatibus veritatis a, quia quaerat mollitia in, omnis at cum esse dolorum rem assumenda vitae minus repellendus voluptate.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dicta dolorum illo voluptates ipsam, placeat temporibus perspiciatis harum. Rem magni quibusdam fugit non minus odit soluta ullam reprehenderit reiciendis expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis soluta ullam nisi enim veritatis ipsum expedita ratione, laudantium sint modi vero, natus dicta cupiditate ipsam repellat, reiciendis maxime magni praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam atque quaerat ad veniam enim ut. Consequatur odio voluptatem fuga nisi ex, qui dicta, assumenda, eligendi repudiandae maiores vitae fugiat nam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi non eveniet odio excepturi culpa cumque provident quaerat. Cupiditate ipsa facere temporibus, illum est, distinctio cum, nihil ab eveniet explicabo dolore.</p>
+      </section>
+
+      <section id="mag2" data-magellan-target="mag2" class="subsection">
+        <h2>Mag 22222</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam earum, perferendis quos necessitatibus veritatis a, quia quaerat mollitia in, omnis at cum esse dolorum rem assumenda vitae minus repellendus voluptate.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dicta dolorum illo voluptates ipsam, placeat temporibus perspiciatis harum. Rem magni quibusdam fugit non minus odit soluta ullam reprehenderit reiciendis expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis soluta ullam nisi enim veritatis ipsum expedita ratione, laudantium sint modi vero, natus dicta cupiditate ipsam repellat, reiciendis maxime magni praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam atque quaerat ad veniam enim ut. Consequatur odio voluptatem fuga nisi ex, qui dicta, assumenda, eligendi repudiandae maiores vitae fugiat nam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi non eveniet odio excepturi culpa cumque provident quaerat. Cupiditate ipsa facere temporibus, illum est, distinctio cum, nihil ab eveniet explicabo dolore.</p>
+      </section>
+<section class="ha-waypoint" data-animate-down="ha-header-rotate" data-animate-up="ha-header-rotateBack">
+				
+			</section>		
+      <section id="mag3" data-magellan-target="mag3" class="subsection">
+        <h2>Mag 3333</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam earum, perferendis quos necessitatibus veritatis a, quia quaerat mollitia in, omnis at cum esse dolorum rem assumenda vitae minus repellendus voluptate.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dicta dolorum illo voluptates ipsam, placeat temporibus perspiciatis harum. Rem magni quibusdam fugit non minus odit soluta ullam reprehenderit reiciendis expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis soluta ullam nisi enim veritatis ipsum expedita ratione, laudantium sint modi vero, natus dicta cupiditate ipsam repellat, reiciendis maxime magni praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam atque quaerat ad veniam enim ut. Consequatur odio voluptatem fuga nisi ex, qui dicta, assumenda, eligendi repudiandae maiores vitae fugiat nam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi non eveniet odio excepturi culpa cumque provident quaerat. Cupiditate ipsa facere temporibus, illum est, distinctio cum, nihil ab eveniet explicabo dolore.</p>
+      </section>
+
+      <section id="mag4" data-magellan-target="mag4" class="subsection">
+        <h2>Mag 44444</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam earum, perferendis quos necessitatibus veritatis a, quia quaerat mollitia in, omnis at cum esse dolorum rem assumenda vitae minus repellendus voluptate.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dicta dolorum illo voluptates ipsam, placeat temporibus perspiciatis harum. Rem magni quibusdam fugit non minus odit soluta ullam reprehenderit reiciendis expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis soluta ullam nisi enim veritatis ipsum expedita ratione, laudantium sint modi vero, natus dicta cupiditate ipsam repellat, reiciendis maxime magni praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam atque quaerat ad veniam enim ut. Consequatur odio voluptatem fuga nisi ex, qui dicta, assumenda, eligendi repudiandae maiores vitae fugiat nam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi non eveniet odio excepturi culpa cumque provident quaerat. Cupiditate ipsa facere temporibus, illum est, distinctio cum, nihil ab eveniet explicabo dolore.</p>
+      </section>  
+    </div>
+
+    <div class="small-3 columns" data-sticky-container>
+      <div class="sticky" data-sticky data-anchor="sec2">
+        <aside>
+          <ul class="menu vertical" data-magellan id="snav">
+            <li><a href="#main">Mag 1111</a></li>
+            <li><a href="#mag2">Mag 2222</a></li>
+            <li><a href="#mag3">Mag 3333</a></li>
+            <li><a href="#mag4">Mag 4444</a></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+<section class="ha-waypoint" data-animate-down="ha-header-rotate ha-header-rotate-color" data-animate-up="ha-header-rotate ha-header-rotate-color2">	
+		<section class="ha-waypoint" data-animate-down="ha-header-rotate" data-animate-up="ha-header-rotateBack">
+
+		<footer class="footer">
+  <div class="row">
+    <div class="small-12 medium-6 large-5 columns">
+      <p class="logo"><img src="https://betagrinder.github.io/somat2/somat6.png" style="width:50px"> Somat Engineering, Inc. </p> 
+      <p class="footer-links">
+   <a href="#about">About</a>
+    <a href="#careers">Careers</a>
+     <a href="#services">Services</a>
+     <a href="#markets">Markets</a>
+     <a href="#projects">Projects</a>  
+     <a href="#locations">Contact</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+      </p>
+      <p class="copywrite">Somat Engineering © 2016 </p>
+    </div>
+    <div class="small-12 medium-6 large-4 columns">
+      <ul class="contact">
+        <li><p><i class="fi-marker"></i>    First National Building<br>
+                    660 Woodward Avenue<br>
+                    Suite 2430<br>
+                    Detroit, MI 48226<br>
+                    
+        <li><p><i class="fi-telephone"></i>(313) 963-2721</p></li>
+        <li><p><i class="fi-print"></i>(313) 963-2736</p></li>
+        <li><p><i class="fi-mail"></i>info@somateng.com</p></li>
+      </ul>
+    </div>
+    <div class="small-12 medium-12 large-3 columns">
+      <p class="about">About Somat Engineering </p>
+      <p class="about subheader">Quality-focused workmanship and integrity in client service since 1986</p>
+      <ul class="inline-list social">
+        <a href="#"><i class="fi-social-facebook"></i></a>
+        <a href="#"><i class="fi-social-twitter"></i></a>
+        <a href="#"><i class="fi-social-linkedin"></i></a>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+		<script src="https://betagrinder.github.io/somat2/js/waypoints.min.js"></script>
+		<script>
+			var $head = $( '#ha-header' );
+			var $main = $( '#snav' );
+			$( '.ha-waypoint' ).each( function(i) {
+				var $el = $( this ),
+					animClassDown = $el.data( 'animateDown' ),
+					animClassUp = $el.data( 'animateUp' );
+
+				$el.waypoint( function( direction ) {
+					if( direction === 'down' && animClassDown ) {
+						$head.attr('class', 'ha-header ' + animClassDown);
+						$main.attr('class', 'menu vertical row' + animClassDown);
+					}
+					else if( direction === 'up' && animClassUp ){
+						$head.attr('class', 'ha-header ' + animClassUp);
+						$main.attr('class', 'menu vertical row' + animClassUp);
+					}
+				}, { offset: '100%' } );
+			} );
+		</script>
+		    <script src="https://betagrinder.github.io/somat2/js/vendor/jquery.js"></script>
+    <script src="https://betagrinder.github.io/somat2/js/vendor/what-input.js"></script>
+    <script src="https://betagrinder.github.io/somat2/js/vendor/foundation.js"></script>
+    <script src="https://betagrinder.github.io/somat2/js/app.js"></script>
+</body></html>
